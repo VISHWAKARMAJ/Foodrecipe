@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <style type="text/css">
+            #barbecue{
+                background-color: red;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 10px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            }
+            #barbecue:hover{
+              background:blueviolet ;
+            }
+            #fish{
+                background-color: green;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 10px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            }
+            #fish:hover{
+                background: blueviolet;
+            }
+            #friedrice{
+                background-color: pink;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 10px;
+                padding:10px 10px 10px 20px;
+                font-size: 30px;
+            }
+            #friedrice:hover{
+                background: blueviolet;
+            }
+            #meat{
+                background-color: red;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 10px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            }
+            #meat:hover{
+                background: blueviolet;
+            }
+            .Text {
+                display: flex;
+                padding: 40px 0px 40px 40px;
+            }
+            
+            .Dinner{
+                display:flex;
+                padding: 20px;
+                margin: 10px;
+            }
+            @media screen and (min-width:600px){
+                body{
+                  grid-template-columns:1fr 1fr;  
+                }
+            }
+            @media screen and (min-width:1000px){
+                body{
+                  grid-template-columns:(3, 1fr);  
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Dinner">
+            <img src="pic/Dinner/barbecue.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Dinner/fish.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Dinner/fried_Rice.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Dinner/meat_potaoes.jpg" width="310" height="293" style="padding: 10px;">
+        </div>
+        <div class="Text">
+            <h1 id="barbecue">Barbecue</h1>
+            <h1 id="fish">Fish</h1>
+            <h1 id="friedrice">Fried_Rice</h1>
+            <h1 id="meat">Meat</h1>
+        </div>
+    </body>
+</html>

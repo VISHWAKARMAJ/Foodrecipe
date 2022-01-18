@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style type="text/css">
+            #idli{
+                background-color: red;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 10px;
+                padding: 10px 20px 10px 20px;
+                font-size: 30px;
+            }
+            #popcorn{
+                background-color: green;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 10px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            }
+            #soup{
+                background-color:orange;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 10px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            }
+            #idli:hover{
+                background: blueviolet;
+            }
+            #popcorn:hover{
+                background: blueviolet;
+            }
+            #soup:hover{
+                background: blueviolet;
+            }
+            .Text{
+                display: flex;
+                padding: 40px;
+            }
+            .Snack{
+                display:flex;
+                padding: 20px;
+                margin: 10px;
+            }
+            @media screen and (min-width:600px){
+                body{
+                grid-template-columns:1fr 1fr;  
+                }
+            }
+            @media screen and (min-width:1000px){
+                body{
+                grid-template-columns:(3, 1fr);  
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Snack">
+            <img src="pic/Snack/idli_Chutney.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Snack/popcorn.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Snack/soup.jpg" width="310" height="293" style="padding: 10px;">
+        </div>
+       <div class="Text">
+            <h1 id="idli">idli_Chutney</h1>
+            <h1 id="popcorn">Popcorn</h1>
+            <h1 id="soup">Soup</h1>
+       </div>
+    </body>
+</html>

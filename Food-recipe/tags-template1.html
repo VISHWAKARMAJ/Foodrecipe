@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style type="text/css">
+            #cheesy{
+                background-color: red;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 20px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            } 
+            #cheesy:hover{
+                background: blueviolet;
+            }
+            #biryani{
+                background-color:green;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 20px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            } 
+            #biryani:hover{
+                background: blueviolet;
+            }
+            #wings{
+                background-color:brown;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 20px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            }
+            #wings:hover{
+                background:blueviolet;
+            }
+            #pizza{
+                background-color:yellowgreen;
+                color:black;
+                font-weight: bolder;
+                width:270px;
+                height:50px;
+                text-align: center;
+                margin: 20px;
+                padding: 10px 10px 10px 20px;
+                font-size: 30px;
+            }
+            #pizza:hover{
+                background: blueviolet;
+            }
+            .Lunch{
+                display:flex;
+                padding: 20px;
+                margin: 20px;
+            }
+            .text{
+                display:flex;
+                padding:40;
+            }
+            @media screen and (min-width:600px){
+                body{
+                grid-template-columns:1fr 1fr;  
+                }
+            }
+            @media screen and (min-width:1000px){
+                body{
+                grid-template-columns:(3, 1fr);  
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Lunch">
+            <img src="pic/Lunch/cheesy_Pizza.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Lunch/chicken_Biryani.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Lunch/chicken_Wings.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Lunch/pepperoni_Pizza.jpg" width="310" height="293" style="padding: 10px;">
+        </div>
+       <div class="Text">
+            <h1 id="cheesy">cheesy_Pizza</h1>
+            <h1 id="biryani">chicken_Biryani</h1>
+            <h1 id="wings">chicken_Wings</h1>
+            <h1 id="pizza">Pizza</h1>
+       </div>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style type="text/css">
+        #pancake{
+            background-color: red;
+            color:black;
+            font-weight: bolder;
+            width:270px;
+            height:50px;
+            text-align: center;
+            margin:  0px 10px 10px 10px;
+            padding: 10px 10px 10px 20px;
+            font-size: 30px;
+        }
+        #pancake:hover{
+            background: blueviolet;
+        }
+        #chees{
+            background-color:yellowgreen;
+            color:black;
+            font-weight: bolder;
+            width:270px;
+            height:50px;
+            text-align: center;
+            margin:  0px 10px 10px 10px;
+            padding: 10px 10px 10px 20px;
+            font-size: 30px;    
+        }
+        #chees:hover{
+            background: blueviolet;
+        }
+        #ftoast{
+            background-color: brown;
+            color:black;
+            font-weight: bolder;
+            width:270px;
+            height:50px;
+            text-align: center;
+            margin:  0px 10px 10px 10px;
+            padding: 10px 10px 10px 20px;
+            font-size: 30px;
+        }
+        #ftoast:hover{
+            background: blueviolet;
+        }
+        #egg{
+            background-color: aqua;
+            color:black;
+            font-weight: bolder;
+            width:270px;
+            height:50px;
+            text-align: center;
+            margin: 0px 20px 10px 20px;
+            padding: 10px 10px 10px 20px;
+            font-size: 30px;
+        }
+        #egg:hover{
+          background: blueviolet;
+        }
+        .Breakfast{
+            display:flex;
+            padding: 40px;
+            margin:10px;
+        }
+        .Text{
+            display: flex;
+            padding: 40px 0px 40px 40px;
+        }
+        @media screen and (min-width:600px){
+            body{
+            grid-template-columns:1fr 1fr;  
+            }
+        }
+        @media screen and (min-width:1000px){
+            body{
+            grid-template-columns:(3, 1fr);  
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="Breakfast">
+           <img src="pic/Breakfast/pancake.jpg" width="310" height="293" style="padding: 10px;">
+           <img src="pic/Breakfast/french_Toast.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Breakfast/egg_Toast.jpg" width="310" height="293" style="padding: 10px;">
+            <img src="pic/Breakfast/cheese_Toast_Coffee.jpg" width="310" height="293" style="padding: 10px;">
+        </div>
+        <div class="Text">
+            <h1 id="pancake">Pancake</h1>
+            <h1 id="ftoast">French_Toast</h1>
+            <h1 id="egg">Egg_Toast</h1>
+            <h1 id="chees">Cheesy_Toast</h1>
+        </div>
+    </body>
+</html>

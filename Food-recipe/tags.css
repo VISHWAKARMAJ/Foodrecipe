@@ -1,0 +1,38 @@
+/*
+================
+Tags Page
+================
+*/
+.tag-wrapper{
+    display:grid;
+    gap:100px;
+    padding:100px;
+}
+.tag {
+    background:blueviolet;
+    border-radius:var(--transition);
+    text-align: center;
+    color:yellow;
+    transition: var(--transition);
+    padding: 0.75rem 0;
+}
+.tag:hover{
+    background:black;
+}
+.tag h4, .tag p{
+    margin-bottom:0;
+}
+.tag h4{
+    font-weight:bolder;
+    font-size: larger;
+}
+@media screen and (min-width:600px){
+    .tag-wrapper{
+      grid-template-columns:1fr 1fr;  
+    }
+}
+@media screen and (min-width:1000px){
+    .tag-wrapper{
+      grid-template-columns:(3, 1fr);  
+    }
+}

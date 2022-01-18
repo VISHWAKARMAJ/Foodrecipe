@@ -1,0 +1,132 @@
+.contact-container{
+    width: 100%;
+    margin: 0%;
+}
+
+.contact-container{
+    display: grid;
+    gap: 2rem 3rem;
+    padding-bottom: 3rem;
+
+}
+
+@media screen and (min-width:992px) {
+    .contact-container{
+        grid-template-columns: 1fr 450px;
+        align-items: center;
+
+    }
+
+    /*
+    
+}
+h3{
+    background-color: aqua;
+}
+button{
+    color: white;
+    background-color: blue;
+}
+ form{
+     border: black;
+ } */
+ h3{
+    position:absolute;
+    width:100%;
+    top: 150px;;
+    text-align:center;
+    color: white;
+ }
+ .text{
+     position: absolute;
+     width: 35%;
+     top:290px;
+     color: white;
+     left: 10%;
+
+ }
+.twotext{
+    position: absolute;
+    width: 35%;
+    top:370px;
+    color: white;
+    left: 10%;
+}
+.contact-form{
+    position: absolute;
+    width: 25%;
+    left:74%;
+    top: 250px;
+
+}
+button{
+    background-color: blue;
+    color: white;
+}
+h2{
+    position: absolute;
+    
+    top: 160px;
+    left:79%;
+    color: white;
+}
+h1{
+    position: absolute;
+    
+    top: 190px;
+    left:79%;
+    color: white;
+}
+.form-label{
+
+color:red;
+}
+/* .featured-recipes{
+    display: flex; */
+/* } */
+/* .featured-title{
+    position:absolute;
+    width:100%;
+    top: 600px;
+    text-align:center;
+    color: white;
+    font-size: large; */
+    /* position: absolute;
+    width:100%
+    top:500px;
+    text-algin:center */
+/* 
+}
+ .pizza1{
+    position: absolute;
+    
+    left:1000px;
+    top: 920px;
+
+ } 
+ .eggnoodles1{
+    position: absolute;
+   
+   left:100px;
+   top: 920px;
+
+
+ }
+ .matterpaneer1{
+    position: absolute;
+   
+   left:510px;
+   top: 920px;
+
+ } */
+ body{
+     background-color: lightblue;
+ }
+.bottom-page{
+    position: absolute;
+    top:1250px;
+   
+  color: rgb(252, 8, 8);
+ 
+}
+
